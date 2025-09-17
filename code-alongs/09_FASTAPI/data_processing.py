@@ -2,6 +2,7 @@ from constants import DATA_PATH
 import json
 from pprint import pprint
 from pydantic import BaseModel, Field
+from typing import List
 
 
 def read_json(filename: str):
@@ -15,6 +16,7 @@ class Book(BaseModel):
     title: str
     author: str
     year: int = Field(gt = 1500, lt = 2026)
+    genres: list[str] = []
 
     model_config = {
         "json_schema_extra": {
@@ -23,6 +25,7 @@ class Book(BaseModel):
                 "title": "Learn with AIgineer",
                 "author": "Kokchun Giang",
                 "year": 2025,
+                "genres": ["education", "technology"]
             }
         }
     }
@@ -31,6 +34,7 @@ class Book(BaseModel):
 class Library(BaseModel):
     name: str
     books: list[Book]
+    genres: list[str]
 
 
 def library_data(filename):

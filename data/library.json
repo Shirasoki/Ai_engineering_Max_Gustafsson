@@ -61,5 +61,29 @@
       "author": "Miguel de Cervantes",
       "year": 1605
     }
+  ],
+  "genres": [
+    { "id": 1, "name": "Science Fiction" },
+    { "id": 2, "name": "Romance" },
+    { "id": 3, "name": "Dystopian" },
+    { "id": 4, "name": "Classic" },
+    { "id": 5, "name": "Adventure" },
+    { "id": 6, "name": "Fantasy" },
+    { "id": 7, "name": "Historical Fiction" },
+    { "id": 8, "name": "Satire" },
+    { "id": 9, "name": "Drama" },
+    { "id": 10, "name": "Psychological Fiction" },
+    { "id": 11, "name": "Philosophical Fiction" },
+    { "id": 12, "name": "Political Fiction" },
+    { "id": 13, "name": "Epic" },
+    { "id": 14, "name": "Tragedy" },
+    { "id": 15, "name": "Comedy" },
+    { "id": 16, "name": "Modernist" },
+    { "id": 17, "name": "Social Novel" },
+    { "id": 18, "name": "Mystery" },
+    { "id": 19, "name": "Thriller" },
+    { "id": 20, "name": "Horror" },
+    { "id": 21, "name": "Magical Realism" },
+    { "id": 22, "name": "Coming-of-Age" }
   ]
 }
