@@ -24,10 +24,30 @@ async def create_book(book_request: Book):
 
     return new_book
 
+@app.get("/books/genres/{genre}")
+async def read_books_by_genre(genre: str):
+    return [book for book in books if genre in book.genres]
+
 # TODO: 
 # update
 # delete
 # query parameters
 
+#add genre
+
 
 # @app.put("/books")
+
+# Ni söker rollen Machine learning engineer
+
+#Ni får detta som arbetsprov:
+
+#Använd er av det vi gick igenom igår om FastAPI CRUD
+
+#bygg vidare på det
+#lär er innehållet
+#kommunicera tekniskt
+#presentera det (kan kombinera egna slides med kod) - ca 5 min presentation - sen kommer frågor och diskussioner
+#hur kan man bygga ut det
+#kan man bygga liknande med annan data än books?
+ 

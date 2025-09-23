@@ -5,61 +5,71 @@
       "id": 1,
       "title": "The Hitchhiker's Guide to the Galaxy",
       "author": "Douglas Adams",
-      "year": 1979
+      "year": 1979,
+      "genres": ["Science Fiction", "Comedy", "Adventure"]
     },
     {
       "id": 2,
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
-      "year": 1813
+      "year": 1813,
+      "genres": ["Romance", "Classic", "Satire"]
     },
     {
       "id": 3,
       "title": "1984",
       "author": "George Orwell",
-      "year": 1949
+      "year": 1949,
+      "genres": ["Dystopian", "Science Fiction", "Political Fiction"]
     },
     {
       "id": 4,
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
-      "year": 1960
+      "year": 1960,
+      "genres": ["Classic", "Coming-of-Age", "Social Novel"]
     },
     {
       "id": 5,
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
-      "year": 1925
+      "year": 1925,
+      "genres": ["Classic", "Tragedy", "Social Novel"]
     },
     {
       "id": 6,
       "title": "Moby Dick",
       "author": "Herman Melville",
-      "year": 1851
+      "year": 1851,
+      "genres": ["Adventure", "Classic", "Tragedy"]
     },
     {
       "id": 7,
       "title": "War and Peace",
       "author": "Leo Tolstoy",
-      "year": 1869
+      "year": 1869,
+      "genres": ["Historical Fiction", "Classic", "Drama"]
     },
     {
       "id": 8,
       "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
-      "year": 1954
+      "year": 1954,
+      "genres": ["Fantasy", "Adventure", "Epic"]
     },
     {
       "id": 9,
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
-      "year": 1866
+      "year": 1866,
+      "genres": ["Psychological Fiction", "Philosophical Fiction", "Classic"]
     },
     {
       "id": 10,
       "title": "Don Quixote",
       "author": "Miguel de Cervantes",
-      "year": 1605
+      "year": 1605,
+      "genres": ["Adventure", "Classic"]
     }
   ],
   "genres": [
