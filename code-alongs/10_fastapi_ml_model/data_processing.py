@@ -21,7 +21,7 @@ class IrisInput(BaseModel):
     ## här specar man med max och min värden om man vill
 
 class PredictionOutput(BaseModel):
-    predicted_flower :str
+    predicted_flower: str
 
 if __name__ == "__main__":
     iris = IrisData()
