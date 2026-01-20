@@ -1,0 +1,27 @@
+# python will be preinstalled in our container
+FROM python:3.11-slim
+
+# choosing the working directory (where you wanna be inside the container)
+WORKDIR /app
+
+# copy everything in this folder in host tinto my working directory in the container
+COPY . .
+
+# install dependencies, dont need uv as docker container is a uv in a sense
+RUN pip install -r requirements.txt
+
+# python dashboard.py is the command that will be run when the container starts
+CMD ["python", "dashboard.py"]
+
+# write Docker ps (to see running containers)
+# write Docker image ls (to see all images)
+# write Docker build -t myfirstdockerimage . (to build the image)
+# write Docker run --name (IMAGE NAME) (Container_name)
+# write Docker run -p 8501:8501 myfirstdockerimage (to run the container)
+# write Docker stop <container id> (to stop the container)
+# write Docker rm <container id> (to remove the container)
+# write Docker rmi <image id> (to remove the image)
+# write Docker exec -it <container id> bash (to get into the container)
+# write exit (to exit the container)
+# write Docker logs <container id> (to see the logs of the container)
+# write Docker build -t streamlit_app . (to build the image with a specific name)
